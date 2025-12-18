@@ -1,0 +1,79 @@
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Arquivos de editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Node modules (caso use ferramentas JS)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (caso use scripts Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Arquivos pessoais
+notas-pessoais/
+rascunhos/
+*.personal
+
+# Arquivos de áudio (podem ser grandes)
+*.mp3
+*.wav
+*.m4a
+*.aac
+
+# PDFs grandes (se houver)
+# *.pdf
+
+# Dados sensíveis
+.env
+.env.local
+secrets/
+credenciais.txt
+senhas.txt
+
+# Arquivos de build
+dist/
+build/
+*.egg-info/
+
+# Coverage e testes
+.coverage
+coverage/
+*.cover
+.pytest_cache/
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Arquivos do sistema
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
